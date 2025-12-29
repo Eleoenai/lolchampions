@@ -6,4 +6,5 @@ body {
   color: #f0e6d2;
   /* Light text */
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }

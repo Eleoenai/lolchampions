@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const ChampionCard = ({ champion }) => {
     return (
-        <Link to={`/champion/${champion.id}`}>
+        <Link to={`/champion/${champion.id}`} className="block overflow-hidden rounded-sm relative">
             <motion.div
                 className="relative group overflow-hidden border border-[#c8aa6e] bg-[#1e2328] cursor-pointer"
                 whileHover={{ scale: 1.05 }}

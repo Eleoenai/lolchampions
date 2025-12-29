@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
                 {children}
             </main>
             <footer className="bg-[#111111] border-t border-[#c8aa6e] p-4 text-center text-sm text-gray-500">
-                <p>&copy; {new Date().getFullYear()} League of Legends Fan Site. Not affiliated with Riot Games.</p>
+                <p>&copy; {new Date().getFullYear()} Desenvolvido por Eleoenai Araújo.</p>
             </footer>
         </div>
     );

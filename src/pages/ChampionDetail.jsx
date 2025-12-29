@@ -37,7 +37,7 @@ const ChampionDetail = () => {
                         transition={{ duration: 0.5 }}
                         className="md:col-span-1"
                     >
-                        <div className="border-2 border-[#c8aa6e] p-1 bg-[#1e2328]">
+                        <div className="border-2 border-[#c8aa6e] p-1 bg-[#1e2328] mx-auto max-w-sm md:max-w-none">
                             <img src={getChampionLoading(champion.id)} alt={champion.name} className="w-full h-auto" />
                         </div>
                         <div className="mt-4 bg-[#1e2328] p-4 border border-[#c8aa6e]">
